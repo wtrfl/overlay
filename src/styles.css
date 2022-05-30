@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Minecraftia";
+    src: url("./assets/Minecraftia.ttf");
+}
+
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    user-select: none;
+    height: 100%;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#base {
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    user-select: none;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.667);
+    border-radius: 10px;
+    --primaryColor: rgb(188, 44, 255);
+}
+
+#menu {
+    margin: 0;
+    height: 28px;
+    width: inherit;
+    -webkit-app-region: drag;
+    text-align: center;
+}
+
+.menuitem {
+    display: inline-block;
+    height: inherit;
+    margin: 0;
+}
+
+#windowTitle {
+    color: white;
+    margin: 10px;
+    margin-left: 0;
+    border: none;
+    outline: none;
+}
+
+#quit {
+    background-color: red;
+    border-radius: 100%;
+    float: right;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    margin-left: 0;
+    border: none;
+    outline: none;
+    filter: drop-shadow(1px 1px rgb(0, 0, 0));
+    -webkit-app-region: no-drag;
+}
+
+#minimize {
+    background-color: yellow;
+    border-radius: 100%;
+    float: right;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    margin-left: 0;
+    border: none;
+    outline: none;
+    filter: drop-shadow(1px 1px rgb(0, 0, 0));
+    -webkit-app-region: no-drag;
+}
+
+#titles {
+    margin: 0;
+    padding: 0;
+    height: 28px;
+    width: inherit;
+    overflow: hidden;
+}
+
+.titleitems {
+    color: var(--primaryColor);
+    display: inline-block;
+    font-family: "Minecraftia";
+    font-size: 18px;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: block;
+    filter: drop-shadow(2px 2px rgb(0, 0, 0));
+}
+
+#indexdiv {
+    margin: 0;
+    padding: 0;
+    height: calc(100% - 63px);
+    width: inherit;
+    overflow-y: overlay;
+}
+
+.indexes {
+    display: inline-block;
+    font-family: "Minecraftia";
+    font-size: 15px;
+    vertical-align: top;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    min-height: inherit;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    color: #AAAAAA;
+    white-space: nowrap;
+    filter: drop-shadow(2px 2px rgb(0, 0, 0));
+}
+
+li {
+    margin-bottom: 5px;
+    height: 23.0044px;
+}
+
+.tagli {
+    position: relative;
+    overflow: visible;
+    top: -5px;
+    font-family: Arial;
+    font-size: 25px;
+}
